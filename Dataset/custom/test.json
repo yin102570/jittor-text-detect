@@ -1,0 +1,602 @@
+[
+  {
+    "id": 900,
+    "text": "Saving money regularly provides financial security and freedom to pursue long-term goals The best way to start a day is with a cup of coffee and a few minutes of quiet reflection",
+    "label": 1,
+    "word_count": 32
+  },
+  {
+    "id": 901,
+    "text": "Learning a new language opens up opportunities to connect with different cultures and people Art and music have the power to express emotions that words alone cannot convey",
+    "label": 0,
+    "word_count": 28
+  },
+  {
+    "id": 902,
+    "text": "Saving money regularly provides financial security and freedom to pursue long-term goals Practicing gratitude daily can significantly improve overall happiness and life satisfaction Technology has made information more accessible but also created new challenges for privacy",
+    "label": 0,
+    "word_count": 36
+  },
+  {
+    "id": 903,
+    "text": "Regular exercise not only improves physical health but also boosts mental well-being physical improves Regular",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 904,
+    "text": "Practicing gratitude daily can significantly improve overall happiness and life satisfaction Spending time in nature reduces stress and helps clear the mind from daily worries",
+    "label": 1,
+    "word_count": 25
+  },
+  {
+    "id": 905,
+    "text": "Traveling solo can be a transformative experience that builds confidence and independence Reading books allows us to explore new worlds and gain perspectives beyond our own experience Art and music have the power to express emotions that words alone cannot",
+    "label": 0,
+    "word_count": 40
+  },
+  {
+    "id": 906,
+    "text": "Good communication is the foundation of strong relationships with family and friends Learning a new language opens up opportunities to connect with different cultures and people The best way to start a day is with a cup of coffee and",
+    "label": 0,
+    "word_count": 40
+  },
+  {
+    "id": 907,
+    "text": "Learning a new language opens up opportunities to connect with different cultures and people Traveling solo can be a transformative experience that builds confidence and independence Regular exercise not only improves physical health but also boosts mental well-being",
+    "label": 0,
+    "word_count": 38
+  },
+  {
+    "id": 908,
+    "text": "Technology has made information more accessible but also created new challenges for privacy Volunteering in the community creates a sense of purpose and strengthens social bonds",
+    "label": 0,
+    "word_count": 26
+  },
+  {
+    "id": 909,
+    "text": "Learning a new language opens up opportunities to connect with different cultures and people The importance of sleep cannot be overstated for cognitive function and emotional regulation",
+    "label": 0,
+    "word_count": 27
+  },
+  {
+    "id": 910,
+    "text": "Volunteering in the community creates a sense of purpose and strengthens social bonds Cooking at home is more affordable and healthier than eating out every day",
+    "label": 0,
+    "word_count": 26
+  },
+  {
+    "id": 911,
+    "text": "Good communication is the foundation of strong relationships with family and friends strong family and",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 912,
+    "text": "Volunteering in the community creates a sense of purpose and strengthens social bonds Saving money regularly provides financial security and freedom to pursue long-term goals Reading books allows us to explore new worlds and gain perspectives beyond our own experience",
+    "label": 1,
+    "word_count": 40
+  },
+  {
+    "id": 913,
+    "text": "Learning to manage time effectively is key to balancing work and personal life Cooking at home is more affordable and healthier than eating out every day",
+    "label": 1,
+    "word_count": 26
+  },
+  {
+    "id": 914,
+    "text": "Good communication is the foundation of strong relationships with family and friends Volunteering in the community creates a sense of purpose and strengthens social bonds",
+    "label": 1,
+    "word_count": 25
+  },
+  {
+    "id": 915,
+    "text": "Saving money regularly provides financial security and freedom to pursue long-term goals Learning to manage time effectively is key to balancing work and personal life",
+    "label": 0,
+    "word_count": 25
+  },
+  {
+    "id": 916,
+    "text": "Learning to manage time effectively is key to balancing work and personal life Spending time in nature reduces stress and helps clear the mind from daily worries The best way to start a day is with a cup of coffee",
+    "label": 1,
+    "word_count": 40
+  },
+  {
+    "id": 917,
+    "text": "Technology has made information more accessible but also created new challenges for privacy Saving money regularly provides financial security and freedom to pursue long-term goals The best way to start a day is with a cup of coffee and a",
+    "label": 1,
+    "word_count": 40
+  },
+  {
+    "id": 918,
+    "text": "Practicing gratitude daily can significantly improve overall happiness and life satisfaction The importance of sleep cannot be overstated for cognitive function and emotional regulation",
+    "label": 0,
+    "word_count": 24
+  },
+  {
+    "id": 919,
+    "text": "The importance of sleep cannot be overstated for cognitive function and emotional regulation Technology has made information more accessible but also created new challenges for privacy",
+    "label": 0,
+    "word_count": 26
+  },
+  {
+    "id": 920,
+    "text": "Regular exercise not only improves physical health but also boosts mental well-being exercise but only",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 921,
+    "text": "Learning to manage time effectively is key to balancing work and personal life Cooking at home is more affordable and healthier than eating out every day",
+    "label": 1,
+    "word_count": 26
+  },
+  {
+    "id": 922,
+    "text": "Practicing gratitude daily can significantly improve overall happiness and life satisfaction satisfaction significantly can daily",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 923,
+    "text": "Art and music have the power to express emotions that words alone cannot convey Practicing gratitude daily can significantly improve overall happiness and life satisfaction",
+    "label": 0,
+    "word_count": 25
+  },
+  {
+    "id": 924,
+    "text": "Regular exercise not only improves physical health but also boosts mental well-being Reading books allows us to explore new worlds and gain perspectives beyond our own experience",
+    "label": 0,
+    "word_count": 27
+  },
+  {
+    "id": 925,
+    "text": "Traveling solo can be a transformative experience that builds confidence and independence solo a and",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 926,
+    "text": "Practicing gratitude daily can significantly improve overall happiness and life satisfaction Art and music have the power to express emotions that words alone cannot convey Learning a new language opens up opportunities to connect with different cultures and people",
+    "label": 1,
+    "word_count": 39
+  },
+  {
+    "id": 927,
+    "text": "Good communication is the foundation of strong relationships with family and friends Cooking at home is more affordable and healthier than eating out every day Volunteering in the community creates a sense of purpose and strengthens social bonds",
+    "label": 0,
+    "word_count": 38
+  },
+  {
+    "id": 928,
+    "text": "Saving money regularly provides financial security and freedom to pursue long-term goals Learning a new language opens up opportunities to connect with different cultures and people",
+    "label": 1,
+    "word_count": 26
+  },
+  {
+    "id": 929,
+    "text": "Cooking at home is more affordable and healthier than eating out every day out more",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 930,
+    "text": "Learning to manage time effectively is key to balancing work and personal life key life",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 931,
+    "text": "Practicing gratitude daily can significantly improve overall happiness and life satisfaction Saving money regularly provides financial security and freedom to pursue long-term goals",
+    "label": 1,
+    "word_count": 23
+  },
+  {
+    "id": 932,
+    "text": "Practicing gratitude daily can significantly improve overall happiness and life satisfaction Good communication is the foundation of strong relationships with family and friends The importance of sleep cannot be overstated for cognitive function and emotional regulation",
+    "label": 0,
+    "word_count": 36
+  },
+  {
+    "id": 933,
+    "text": "Regular exercise not only improves physical health but also boosts mental well-being mental physical well-being",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 934,
+    "text": "Practicing gratitude daily can significantly improve overall happiness and life satisfaction daily Practicing overall can",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 935,
+    "text": "Traveling solo can be a transformative experience that builds confidence and independence The importance of sleep cannot be overstated for cognitive function and emotional regulation Saving money regularly provides financial security and freedom to pursue long-term goals",
+    "label": 1,
+    "word_count": 37
+  },
+  {
+    "id": 936,
+    "text": "Technology has made information more accessible but also created new challenges for privacy Cooking at home is more affordable and healthier than eating out every day The importance of sleep cannot be overstated for cognitive function and emotional regulation",
+    "label": 0,
+    "word_count": 39
+  },
+  {
+    "id": 937,
+    "text": "Regular exercise not only improves physical health but also boosts mental well-being Learning to manage time effectively is key to balancing work and personal life Spending time in nature reduces stress and helps clear the mind from daily worries",
+    "label": 1,
+    "word_count": 39
+  },
+  {
+    "id": 938,
+    "text": "The importance of sleep cannot be overstated for cognitive function and emotional regulation emotional importance",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 939,
+    "text": "Learning a new language opens up opportunities to connect with different cultures and people Traveling solo can be a transformative experience that builds confidence and independence",
+    "label": 1,
+    "word_count": 26
+  },
+  {
+    "id": 940,
+    "text": "Reading books allows us to explore new worlds and gain perspectives beyond our own experience Art and music have the power to express emotions that words alone cannot convey Cooking at home is more affordable and healthier than eating out",
+    "label": 0,
+    "word_count": 40
+  },
+  {
+    "id": 941,
+    "text": "Regular exercise not only improves physical health but also boosts mental well-being exercise not physical",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 942,
+    "text": "Volunteering in the community creates a sense of purpose and strengthens social bonds Technology has made information more accessible but also created new challenges for privacy",
+    "label": 1,
+    "word_count": 26
+  },
+  {
+    "id": 943,
+    "text": "The importance of sleep cannot be overstated for cognitive function and emotional regulation Saving money regularly provides financial security and freedom to pursue long-term goals",
+    "label": 0,
+    "word_count": 25
+  },
+  {
+    "id": 944,
+    "text": "The best way to start a day is with a cup of coffee and a few minutes of quiet reflection Cooking at home is more affordable and healthier than eating out every day Good communication is the foundation of strong",
+    "label": 1,
+    "word_count": 40
+  },
+  {
+    "id": 945,
+    "text": "The best way to start a day is with a cup of coffee and a few minutes of quiet reflection Saving money regularly provides financial security and freedom to pursue long-term goals Technology has made information more accessible but also",
+    "label": 0,
+    "word_count": 40
+  },
+  {
+    "id": 946,
+    "text": "Learning a new language opens up opportunities to connect with different cultures and people Learning to manage time effectively is key to balancing work and personal life Volunteering in the community creates a sense of purpose and strengthens social bonds",
+    "label": 0,
+    "word_count": 40
+  },
+  {
+    "id": 947,
+    "text": "Volunteering in the community creates a sense of purpose and strengthens social bonds Saving money regularly provides financial security and freedom to pursue long-term goals",
+    "label": 1,
+    "word_count": 25
+  },
+  {
+    "id": 948,
+    "text": "Spending time in nature reduces stress and helps clear the mind from daily worries from",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 949,
+    "text": "Saving money regularly provides financial security and freedom to pursue long-term goals Reading books allows us to explore new worlds and gain perspectives beyond our own experience",
+    "label": 1,
+    "word_count": 27
+  },
+  {
+    "id": 950,
+    "text": "Saving money regularly provides financial security and freedom to pursue long-term goals security freedom pursue",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 951,
+    "text": "Art and music have the power to express emotions that words alone cannot convey Learning to manage time effectively is key to balancing work and personal life Learning a new language opens up opportunities to connect with different cultures and",
+    "label": 1,
+    "word_count": 40
+  },
+  {
+    "id": 952,
+    "text": "Volunteering in the community creates a sense of purpose and strengthens social bonds The best way to start a day is with a cup of coffee and a few minutes of quiet reflection Traveling solo can be a transformative experience",
+    "label": 0,
+    "word_count": 40
+  },
+  {
+    "id": 953,
+    "text": "Saving money regularly provides financial security and freedom to pursue long-term goals to long-term provides",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 954,
+    "text": "Learning to manage time effectively is key to balancing work and personal life key time",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 955,
+    "text": "Saving money regularly provides financial security and freedom to pursue long-term goals provides money freedom",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 956,
+    "text": "Technology has made information more accessible but also created new challenges for privacy Practicing gratitude daily can significantly improve overall happiness and life satisfaction The best way to start a day is with a cup of coffee and a few",
+    "label": 1,
+    "word_count": 40
+  },
+  {
+    "id": 957,
+    "text": "Good communication is the foundation of strong relationships with family and friends Reading books allows us to explore new worlds and gain perspectives beyond our own experience",
+    "label": 0,
+    "word_count": 27
+  },
+  {
+    "id": 958,
+    "text": "Learning a new language opens up opportunities to connect with different cultures and people Learning to manage time effectively is key to balancing work and personal life",
+    "label": 0,
+    "word_count": 27
+  },
+  {
+    "id": 959,
+    "text": "Regular exercise not only improves physical health but also boosts mental well-being physical exercise only",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 960,
+    "text": "The importance of sleep cannot be overstated for cognitive function and emotional regulation Good communication is the foundation of strong relationships with family and friends Volunteering in the community creates a sense of purpose and strengthens social bonds",
+    "label": 0,
+    "word_count": 38
+  },
+  {
+    "id": 961,
+    "text": "Regular exercise not only improves physical health but also boosts mental well-being The best way to start a day is with a cup of coffee and a few minutes of quiet reflection",
+    "label": 0,
+    "word_count": 32
+  },
+  {
+    "id": 962,
+    "text": "Technology has made information more accessible but also created new challenges for privacy The importance of sleep cannot be overstated for cognitive function and emotional regulation Traveling solo can be a transformative experience that builds confidence and independence",
+    "label": 1,
+    "word_count": 38
+  },
+  {
+    "id": 963,
+    "text": "Spending time in nature reduces stress and helps clear the mind from daily worries in",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 964,
+    "text": "Reading books allows us to explore new worlds and gain perspectives beyond our own experience",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 965,
+    "text": "Art and music have the power to express emotions that words alone cannot convey and",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 966,
+    "text": "Cooking at home is more affordable and healthier than eating out every day Saving money regularly provides financial security and freedom to pursue long-term goals Traveling solo can be a transformative experience that builds confidence and independence",
+    "label": 0,
+    "word_count": 37
+  },
+  {
+    "id": 967,
+    "text": "Practicing gratitude daily can significantly improve overall happiness and life satisfaction Learning a new language opens up opportunities to connect with different cultures and people",
+    "label": 1,
+    "word_count": 25
+  },
+  {
+    "id": 968,
+    "text": "Spending time in nature reduces stress and helps clear the mind from daily worries in",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 969,
+    "text": "Saving money regularly provides financial security and freedom to pursue long-term goals Traveling solo can be a transformative experience that builds confidence and independence",
+    "label": 1,
+    "word_count": 24
+  },
+  {
+    "id": 970,
+    "text": "Cooking at home is more affordable and healthier than eating out every day day healthier",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 971,
+    "text": "Art and music have the power to express emotions that words alone cannot convey express",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 972,
+    "text": "Good communication is the foundation of strong relationships with family and friends The best way to start a day is with a cup of coffee and a few minutes of quiet reflection",
+    "label": 0,
+    "word_count": 32
+  },
+  {
+    "id": 973,
+    "text": "Regular exercise not only improves physical health but also boosts mental well-being boosts only improves",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 974,
+    "text": "Traveling solo can be a transformative experience that builds confidence and independence Reading books allows us to explore new worlds and gain perspectives beyond our own experience Regular exercise not only improves physical health but also boosts mental well-being",
+    "label": 1,
+    "word_count": 39
+  },
+  {
+    "id": 975,
+    "text": "Cooking at home is more affordable and healthier than eating out every day Volunteering in the community creates a sense of purpose and strengthens social bonds",
+    "label": 0,
+    "word_count": 26
+  },
+  {
+    "id": 976,
+    "text": "Technology has made information more accessible but also created new challenges for privacy Saving money regularly provides financial security and freedom to pursue long-term goals Good communication is the foundation of strong relationships with family and friends",
+    "label": 1,
+    "word_count": 37
+  },
+  {
+    "id": 977,
+    "text": "Traveling solo can be a transformative experience that builds confidence and independence Saving money regularly provides financial security and freedom to pursue long-term goals",
+    "label": 1,
+    "word_count": 24
+  },
+  {
+    "id": 978,
+    "text": "The importance of sleep cannot be overstated for cognitive function and emotional regulation Saving money regularly provides financial security and freedom to pursue long-term goals",
+    "label": 0,
+    "word_count": 25
+  },
+  {
+    "id": 979,
+    "text": "Spending time in nature reduces stress and helps clear the mind from daily worries Learning to manage time effectively is key to balancing work and personal life",
+    "label": 0,
+    "word_count": 27
+  },
+  {
+    "id": 980,
+    "text": "Traveling solo can be a transformative experience that builds confidence and independence Art and music have the power to express emotions that words alone cannot convey",
+    "label": 1,
+    "word_count": 26
+  },
+  {
+    "id": 981,
+    "text": "Practicing gratitude daily can significantly improve overall happiness and life satisfaction Technology has made information more accessible but also created new challenges for privacy Volunteering in the community creates a sense of purpose and strengthens social bonds",
+    "label": 1,
+    "word_count": 37
+  },
+  {
+    "id": 982,
+    "text": "The importance of sleep cannot be overstated for cognitive function and emotional regulation emotional importance",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 983,
+    "text": "Regular exercise not only improves physical health but also boosts mental well-being Traveling solo can be a transformative experience that builds confidence and independence",
+    "label": 0,
+    "word_count": 24
+  },
+  {
+    "id": 984,
+    "text": "Cooking at home is more affordable and healthier than eating out every day Regular exercise not only improves physical health but also boosts mental well-being Reading books allows us to explore new worlds and gain perspectives beyond our own experience",
+    "label": 1,
+    "word_count": 40
+  },
+  {
+    "id": 985,
+    "text": "Spending time in nature reduces stress and helps clear the mind from daily worries Traveling solo can be a transformative experience that builds confidence and independence",
+    "label": 0,
+    "word_count": 26
+  },
+  {
+    "id": 986,
+    "text": "Volunteering in the community creates a sense of purpose and strengthens social bonds the social",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 987,
+    "text": "Regular exercise not only improves physical health but also boosts mental well-being Practicing gratitude daily can significantly improve overall happiness and life satisfaction",
+    "label": 1,
+    "word_count": 23
+  },
+  {
+    "id": 988,
+    "text": "Learning a new language opens up opportunities to connect with different cultures and people Practicing gratitude daily can significantly improve overall happiness and life satisfaction",
+    "label": 1,
+    "word_count": 25
+  },
+  {
+    "id": 989,
+    "text": "Practicing gratitude daily can significantly improve overall happiness and life satisfaction significantly gratitude life daily",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 990,
+    "text": "Spending time in nature reduces stress and helps clear the mind from daily worries time",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 991,
+    "text": "Cooking at home is more affordable and healthier than eating out every day Traveling solo can be a transformative experience that builds confidence and independence",
+    "label": 0,
+    "word_count": 25
+  },
+  {
+    "id": 992,
+    "text": "Technology has made information more accessible but also created new challenges for privacy Technology but",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 993,
+    "text": "Traveling solo can be a transformative experience that builds confidence and independence Good communication is the foundation of strong relationships with family and friends",
+    "label": 1,
+    "word_count": 24
+  },
+  {
+    "id": 994,
+    "text": "Practicing gratitude daily can significantly improve overall happiness and life satisfaction happiness satisfaction Practicing significantly",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 995,
+    "text": "Reading books allows us to explore new worlds and gain perspectives beyond our own experience",
+    "label": 1,
+    "word_count": 15
+  },
+  {
+    "id": 996,
+    "text": "Technology has made information more accessible but also created new challenges for privacy Reading books allows us to explore new worlds and gain perspectives beyond our own experience",
+    "label": 0,
+    "word_count": 28
+  },
+  {
+    "id": 997,
+    "text": "Cooking at home is more affordable and healthier than eating out every day Practicing gratitude daily can significantly improve overall happiness and life satisfaction",
+    "label": 1,
+    "word_count": 24
+  },
+  {
+    "id": 998,
+    "text": "Regular exercise not only improves physical health but also boosts mental well-being health only improves",
+    "label": 0,
+    "word_count": 15
+  },
+  {
+    "id": 999,
+    "text": "Regular exercise not only improves physical health but also boosts mental well-being The best way to start a day is with a cup of coffee and a few minutes of quiet reflection Reading books allows us to explore new worlds",
+    "label": 1,
+    "word_count": 40
+  }
+]
