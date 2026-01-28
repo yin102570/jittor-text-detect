@@ -1,6 +1,0 @@
-Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
-Requirement already satisfied: numpy in c:\users\asdf1\anaconda3\lib\site-packages (1.26.4)
-Collecting pybind11
-  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/cd/8a/37362fc2b949d5f733a8b0f2ff51ba423914cabefe69f1d1b6aab710f5fe/pybind11-3.0.1-py3-none-any.whl (293 kB)
-Installing collected packages: pybind11
-Successfully installed pybind11-3.0.1
