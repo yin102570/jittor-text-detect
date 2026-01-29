@@ -215,7 +215,7 @@ class PerturbationScorer:
             return text  # 返回原文本作为兜底
 
     def score(self, text):
-        """单文本扰动评分（增加异常处理）"""
+        """单文本扰动评分（增加异常处理 + 多重优化提升AUC）"""
         try:
             # 计算原始文本似然
             original_ll = get_ll(self.args, self.config, text)
@@ -238,9 +238,38 @@ class PerturbationScorer:
                 return 0.0
 
             avg_perturbed_ll = np.mean(perturbed_lls)
-            score = original_ll - avg_perturbed_ll
+            std_perturbed_ll = np.std(perturbed_lls) if len(perturbed_lls) > 1 else 0.0
 
-            return score
+            # 基础曲率分数
+            curvature = original_ll - avg_perturbed_ll
+
+            # 🔥 优化1: Z-score 标准化
+            if std_perturbed_ll > 0:
+                normalized_curvature = curvature / (std_perturbed_ll + 1e-8)
+            else:
+                normalized_curvature = curvature
+
+            # 🔥 优化2: 多轮扰动一致性检查
+            if len(perturbed_lls) >= 2:
+                consistency = 1.0 / (1.0 + np.std(perturbed_lls))
+            else:
+                consistency = 1.0
+
+            # 🔥 优化3: 幂函数放大分数差异
+            score = np.sign(curvature) * (np.abs(curvature) ** 0.8)
+
+            # 🔥 优化4: 原始似然归一化（避免长度偏差）
+            text_length = len(text.split())
+            normalized_original = original_ll / (text_length + 1)
+
+            # 🔥 优化5: 综合评分策略
+            # 结合曲率、标准差、一致性和归一化原始分数
+            final_score = (score * 0.5 +
+                          normalized_curvature * 0.3 +
+                          consistency * 0.1 +
+                          normalized_original * 0.1)
+
+            return final_score
 
         except Exception as e:
             print(f"❌ PerturbationScorer评分失败: {str(e)}")

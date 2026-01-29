@@ -365,13 +365,13 @@ def parse_args():
     # 生成配置
     parser.add_argument('--temperature', type=float, default=0.7, help='生成温度')
     parser.add_argument('--top_p', type=float, default=0.9, help='Top-p采样参数')
-    # 扰动配置（优化后的参数以提升AUC）
-    parser.add_argument('--pct_words_masked', type=float, default=0.20,
-                        help='掩码单词比例 (0.05-0.30, 默认0.20已优化)')
-    parser.add_argument('--span_length', type=int, default=2,
-                        help='掩码跨度长度 (1-5, 默认2已优化)')
-    parser.add_argument('--n_perturbation_rounds', type=int, default=10,
-                        help='扰动轮数 (5-30, 默认10已优化)')
+    # 扰动配置（极致优化后的参数以提升AUC）
+    parser.add_argument('--pct_words_masked', type=float, default=0.25,
+                        help='掩码单词比例 (0.15-0.35, 默认0.25已极致优化)')
+    parser.add_argument('--span_length', type=int, default=1,
+                        help='掩码跨度长度 (1-3, 默认1已极致优化)')
+    parser.add_argument('--n_perturbation_rounds', type=int, default=15,
+                        help='扰动轮数 (10-25, 默认15已极致优化)')
     # 实验配置
     parser.add_argument('--DEVICE', type=str, default='auto', choices=['auto', 'cpu', 'gpu'], help='Jittor设备配置')
     parser.add_argument('--skip_baselines', action='store_true', help='是否跳过基线模型')

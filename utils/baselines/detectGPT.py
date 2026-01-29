@@ -1,8 +1,62 @@
 
 
 import numpy as np
-from .model import PerturbationScorer
+from .model import PerturbationScorer, get_ll
 from .metric import get_roc_metrics, get_precision_recall_metrics
+
+def integrate_multiple_scores(texts, scorer):
+    """
+    🔥 集成多种评分策略，提升 AUC
+    """
+    from .model import get_ll
+
+    scores_list = []
+
+    for text in texts:
+        try:
+            # 策略1: 原始扰动曲率
+            curvature_score = scorer.score(text)
+
+            # 策略2: 原始似然
+            original_ll = get_ll(scorer.args, scorer.config, text)
+
+            # 策略3: 多轮扰动方差
+            perturbed_lls = []
+            for _ in range(min(3, scorer.args.n_perturbation_rounds)):
+                try:
+                    perturbed_text = scorer._perturb_text(text)
+                    if perturbed_text != text:
+                        perturbed_ll = get_ll(scorer.args, scorer.config, perturbed_text)
+                        perturbed_lls.append(perturbed_ll)
+                except:
+                    continue
+
+            if perturbed_lls:
+                variance_score = np.std(perturbed_lls)
+                consistency_score = 1.0 / (1.0 + np.std(perturbed_lls))
+            else:
+                variance_score = 0.0
+                consistency_score = 0.5
+
+            # 策略4: 文本长度归一化
+            text_length = len(text.split())
+            normalized_ll = original_ll / (text_length + 1)
+
+            # 🔥 集成评分: 加权组合
+            integrated_score = (
+                curvature_score * 0.5 +
+                variance_score * 0.2 +
+                consistency_score * 0.2 +
+                normalized_ll * 0.1
+            )
+
+            scores_list.append(integrated_score)
+
+        except Exception as e:
+            print(f"⚠️ 集成评分失败: {str(e)}")
+            scores_list.append(0.0)
+
+    return scores_list
 
 def detectGPT(args, config, data, span_length=2):
     print("运行修复版 DetectGPT...")
@@ -106,6 +160,18 @@ def detectGPT(args, config, data, span_length=2):
             return []
 
         print(f"\n分数统计:")
+        print(f"原始文本分数 - 均值: {np.mean(original_scores):.4f}, 标准差: {np.std(original_scores):.4f}")
+        print(f"生成文本分数 - 均值: {np.mean(sampled_scores):.4f}, 标准差: {np.std(sampled_scores):.4f}")
+
+        # 🔥 优化6: 集成多种评分策略
+        original_scores_multi = integrate_multiple_scores(cleaned_original, scorer)
+        sampled_scores_multi = integrate_multiple_scores(cleaned_samples, scorer)
+
+        # 使用集成评分
+        original_scores = original_scores_multi
+        sampled_scores = sampled_scores_multi
+
+        print(f"\n集成后分数统计:")
         print(f"原始文本分数 - 均值: {np.mean(original_scores):.4f}, 标准差: {np.std(original_scores):.4f}")
         print(f"生成文本分数 - 均值: {np.mean(sampled_scores):.4f}, 标准差: {np.std(sampled_scores):.4f}")
 
